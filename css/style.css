@@ -1,0 +1,166 @@
+/* reset */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;1,200&display=swap');
+html{
+    font-size: 62.5%;
+    
+}
+body{
+    font: 1.6rem 'Montserrat',sans-serif;
+    margin: 0;
+    overflow-x: hidden;
+    animation: sky 3s infinite alternate-reverse;
+   
+
+}
+@keyframes sky{
+    from{
+        background: linear-gradient(to right, #64b3f4, #c2e59c); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+            }
+    to{
+        background: linear-gradient(to right, #64b3f4, #c2e59c); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+            }
+}
+h1,h2,h3,p,ul,ol,figure{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+*{
+    box-sizing: border-box;
+}
+button{
+    border: 0;
+    background-color: #ccc;
+    font-size: 1.6rem;
+}
+/* in this page css theme */
+:root{
+    --color-default: #ccc;
+    --color-primary: #2980b9;
+    --color-success: #27ae60;
+    --color-alert: #c0392b;
+    --color-event: #e67e22;
+    --color-header: #7088a1;
+}
+header{
+    margin-bottom: 5.0rem;
+}
+
+header h1{
+    text-align: center;
+    line-height: 5rem;
+}
+
+
+section p {
+    line-height: 4rem;
+    font-size: 3rem;
+    text-align: center;
+}
+ .menu{
+     box-shadow: -3px 2px 20px 3px#000000;
+     border-radius: 2rem;
+     margin: 0 auto 0;
+     width: 40%;
+     height: 30rem;
+     background-color: #ffffff;
+ }
+ .buta{
+    transition: all ease-in-out 200ms;
+    background: center / contain no-repeat url("https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Euro_symbol_gold.svg/882px-Euro_symbol_gold.svg.png");
+    background-size: 50%;
+    border-bottom-right-radius: 6rem;
+    display: inline-block;
+    width: 30%;
+    height: 50%;
+    background-color: #2bc09b;
+ }
+ .butb{
+    transition: all ease-in-out 200ms;
+    background: center / contain no-repeat url("https://cdn.onlinewebfonts.com/svg/img_106832.png");
+    background-size: 50%;
+    border-bottom-left-radius: 6rem;
+    float: right;
+    display: inline-block;
+    width: 30%;
+    height: 50%;
+    background-color: #8e75e9;
+
+ }
+ 
+ .butc{
+    transition: all ease-in-out 200ms;
+
+    background: center / contain no-repeat url("http://www.pngmart.com/files/7/Loss-PNG-Clipart.png");
+    background-size: 50%;
+    border-bottom-left-radius: 6rem;
+    border-bottom-right-radius: 6rem;
+
+  transform: translateX(15%);
+   display: inline-block;
+   width: 30%;
+   height: 50%;
+   background-color: #b06a6a;
+
+}
+.buta p{
+text-align: center;}
+
+.gain{
+width: 40%;
+background-color: #27ae60;
+text-align: center;
+line-height: 3rem;
+font-weight: bolder;
+font-size: 3rem;
+margin: -9rem auto;}
+
+.perte{
+    width: 40%;
+    background-color: #b63434;
+    text-align: center;
+    line-height: 3rem;
+    font-weight: bolder;
+    font-size: 3rem;
+    margin: -9rem auto;}
+    
+.menu .butb p{
+    display: none;
+}
+.buta:hover{
+    transition: all ease-in-out 200ms;
+    background: center / contain no-repeat url("https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Euro_symbol_gold.svg/882px-Euro_symbol_gold.svg.png");
+    background-size: 65%;
+    background-color: #2bc09b;
+    box-shadow: -3px 2px 20px 3px rgba(65,164,72,0.61);
+  
+}
+.butb:hover{
+    transition: all ease-in-out 200ms;
+    background: center / contain no-repeat url("https://cdn.onlinewebfonts.com/svg/img_106832.png");
+    background-size: 65%;
+    background-color: #8e75e9;
+    box-shadow: -3px 2px 20px 3px #8e75e9;;
+
+
+}
+.butc:hover{
+    transition: all ease-in-out 200ms;
+    background: center / contain no-repeat url("http://www.pngmart.com/files/7/Loss-PNG-Clipart.png");
+    background-size: 65%;
+    background-color: #b06a6a;
+    box-shadow: -3px 2px 20px 3px#b06a6a;
+
+
+}
+.retraitdepot{
+
+    width: 20%;
+background-color: #2783ae;
+text-align: center;
+line-height: 3rem;
+font-weight: bolder;
+font-size: 3rem;
+margin: -9rem auto;
+
+}
